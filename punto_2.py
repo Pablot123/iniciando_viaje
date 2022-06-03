@@ -1,5 +1,5 @@
 
-users =[]
+users =[] # Create a empty list to save the values
 
 #The for code is to take the information from the three users 
 print('INFORMATION USER #1')
@@ -34,5 +34,5 @@ email_user_3 = input('Please enter your email: ')
 #Here we save the information from each user in a tuple(inmutable colection structure)
 users.append((name_complete_user_3, ocupation_user_3, age_user_3, city_user_3, number_user_3, email_user_3))
 print('\n') # used to show a space between each user
-users = tuple(users)
-print(f'Information user 1: {users[0]}\nInformation user 2: {users[1]}\nInformation user 3: {users[2]}')
+users = tuple(users) # Cast the user list in a tuple
+print(f'Information user 1: {users[0]}\nInformation user 2: {users[1]}\nInformation user 3: {users[2]}') # show the user information with f-string
