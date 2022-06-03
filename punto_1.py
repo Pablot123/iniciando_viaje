@@ -12,6 +12,7 @@ r_two_d_two = '''
       
 
 '''
+
 c_three_po = '''
     /~\\
    |oo )
@@ -28,4 +29,4 @@ c_three_po = '''
   /_] [_\\
 '''
 
-print(r_two_d_two, c_three_po)
+print(r_two_d_two, c_three_po) # print the two robots
