@@ -1,7 +1,7 @@
 
 users =[] # Create a empty list to save the values
 
-#The for code is to take the information from the three users 
+
 print('INFORMATION USER #1')
 name_complete_user_1 = input('Please enter your complete name: ')
 ocupation_user_1 = input('Please enter your ocupation: ')
